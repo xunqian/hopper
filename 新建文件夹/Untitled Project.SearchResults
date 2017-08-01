@@ -1,0 +1,11 @@
+---- out_coin_sensors_check Matches (10 in 2 files) ----
+Main.c (f:\armpoject\hopper):	out_coin_sensors_check(BACKWARD,200,0);
+Main.c (f:\armpoject\hopper):	         ret=out_coin_sensors_check(FOREWARD,400+i*100,0);
+Main.c (f:\armpoject\hopper):	            ret=out_coin_sensors_check(BACKWARD,300+i*100,0);
+Main.c (f:\armpoject\hopper):uchar out_coin_sensors_check(uchar direction,uint over_time,uchar empty_check)
+Main.c (f:\armpoject\hopper):		     ret=out_coin_sensors_check(FOREWARD,800+n*100,0);
+Main.c (f:\armpoject\hopper):			    out_coin_sensors_check(BACKWARD,50,0);
+Main.c (f:\armpoject\hopper):				ret=out_coin_sensors_check(BACKWARD,500+n*100,0);
+Main.c (f:\armpoject\hopper):	   out_coin_sensors_check(BACKWARD,500,1);
+Main.c (f:\armpoject\hopper):   out_coin_sensors_check(BACKWARD,1000,1);
+Main.h (f:\armpoject\hopper):uchar out_coin_sensors_check(uchar direction,uint over_time,uchar empty_check);
